@@ -1,0 +1,6 @@
+{
+  "crons": [
+    { "path": "/api/sync?source=r365",  "schedule": "15 8 * * *" },
+    { "path": "/api/sync?source=toast", "schedule": "45 8 * * *" }
+  ]
+}
